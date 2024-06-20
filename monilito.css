@@ -1,0 +1,232 @@
+.olor {
+    border-radius: 10%;
+    display: flex;
+    margin: auto;
+    width: 50px;
+    height: 10px;
+    background-color: #d8b597;
+    border: 5px solid #5a2d0c;
+}
+.cara{
+    display: flex;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    background-color: #d8b597;
+    border: 5px solid #5a2d0c;
+}
+.partecara{
+    display: flex;
+   align-items: center;
+}
+.ojos {
+    display: flex;
+    margin: 1px;
+    width: 5px;
+    height: 5px;
+    background-color: #d8b597;
+    border: 5px solid #5a2d0c;
+}
+.nariz {
+    display: flex;
+    margin: 3px;
+    width: 5px;
+    height: 10px;
+    background-color: #d8b597;
+    border: 5px solid #5a2d0c;
+}
+
+.frente{
+    
+    
+    width: 5px;
+    height: 10px;
+    background-color: #d8b597;
+    border: 5px solid #5a2d0c;
+}
+
+.cuerpo{
+    margin: auto;
+    border-radius: 10%;
+    display: flex;
+    
+    width: 70px;
+    height: 90px;
+    background-color: #d8b597;
+    border: 5px solid #5a2d0c;
+}
+.cintura{
+    margin: auto;
+    border-radius: 10%;
+    
+    width: 70px;
+    height: 20px;
+    background-color: #d8b597;
+    border: 5px solid #5a2d0c;
+}
+.pies1{
+    margin: auto;
+    border-radius: 10%;
+    display: flex;
+    width: 70px;
+    height: 90px;
+    background-color: #d8b597;
+    border: 5px solid #5a2d0c;
+}
+.pies {
+    border-radius: 10%;
+    display: flex;
+    margin: auto;
+    width: 70px;
+    height: 90px;
+    
+}
+.dedos {
+    border-radius: 10%;
+   
+    margin: auto;
+    margin-top: 75px;
+    width: 2px;
+    height: 10px;
+    border: 3px solid #5a2d0c;
+    
+}
+.partecara1{
+    display: flex;
+    
+}
+.boca {
+    border-radius: 10%;
+
+   
+    margin: auto;
+
+    width: 2px;
+    height: 10px;
+    border: 3px solid #5a2d0c;
+    
+}
+.manos {
+    border-radius: 10%;
+    
+   
+ 
+    width: 15px;
+    height: 50px;
+    border: 5px solid #5a2d0c;
+    
+}
+.manos1 {
+    border-radius: 10%;
+ 
+    margin-left: 28px;
+    
+   
+ 
+    width: 15px;
+    height: 50px;
+    border: 5px solid #5a2d0c;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.posision {
+    display: flex;
+    max-width: auto;
+}
+
+
+.letter {
+    position: relative;
+    width: 60px;
+    height: 100px;
+    margin: 0 5px;
+}
+
+.letter.D .vertical,
+.letter.I .vertical,
+.letter.A .left,
+.letter.A .right,
+.letter.V .left,
+.letter.V .right {
+    position: absolute;
+    background-color: #333;
+}
+
+.letter.D .vertical {
+    width: 10px;
+    height: 100%;
+    left: 0;
+}
+
+.letter.D .curve {
+    width: 60px;
+    height: 100px;
+    border: 10px solid #333;
+    border-left: none;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 0;
+}
+
+.letter.A .left {
+    width: 10px;
+    height: 100%;
+    left: 25%;
+    transform: rotate(50deg);
+}
+
+.letter.A .right {
+    width: 10px;
+    height: 100%;
+    right: 25%;
+    transform: rotate(20deg);
+}
+
+.letter.A .horizontal {
+    width: 50%;
+    height: 10px;
+    background-color: #333;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.letter.V .left {
+    width: 10px;
+    height: 100%;
+    left: 20%;
+    transform: rotate(25deg);
+    transform-origin: bottom left;
+}
+
+.letter.V .right {
+    width: 10px;
+    height: 100%;
+    right: 20%;
+    transform: rotate(-25deg);
+    transform-origin: bottom right;
+}
+
+.letter.I .vertical {
+    width: 10px;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
